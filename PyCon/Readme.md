@@ -1,0 +1,1 @@
+1. [PyCon KR 2023 FastAPI Deep dive 정보람](https://youtu.be/9Qe84CQ1XVo)

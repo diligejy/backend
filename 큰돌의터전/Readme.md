@@ -1,0 +1,1 @@
+1. [합격하는 개발자 포트폴리오 양식 공유](https://youtu.be/kgJeBupiSJA)
