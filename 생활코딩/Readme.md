@@ -1,0 +1,1 @@
+1. [Supabase 입문수업](https://youtu.be/FbLzqoENTsg)

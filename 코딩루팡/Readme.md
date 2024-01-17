@@ -1,0 +1,1 @@
+1. [평생 서버 비용 아끼는 방법 | 개발자가 도커 필수로 알아야 하는 이유](https://youtu.be/JosDGxLPwWc)
