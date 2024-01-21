@@ -24,6 +24,7 @@ jobs:
               run: pip install -r ./Code_With_Prince/requirements.txt
             - name: 
               run: python3 ./Code_With_Prince/Scripts/hello.py
+
     run-tests:
         runs-on: ubuntu-20.04
         needs: [test-setup-env]
