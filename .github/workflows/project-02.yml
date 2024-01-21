@@ -31,6 +31,6 @@ jobs:
             - name: Pull code from repo
               uses: actions/checkout@v3
             - name: run pytest
-              run: 
+              run: |
                 pip install pytest 
                 pytest -v
