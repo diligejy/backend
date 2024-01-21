@@ -1,0 +1,2 @@
+1. [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline | Beginners Crash Course](https://youtu.be/tooU3dYlGOM?list=PLU7aW4OZeUzxwCBO5sgZH0Z4IwayDYxB7)
+    - [Note](./Note/GitHub_Actions_Tutorial.md)
