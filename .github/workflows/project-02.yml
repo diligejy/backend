@@ -1,0 +1,34 @@
+# workflow name
+name: project-02
+
+# event >> trigger
+
+on: ["push"]
+
+jobs:
+    # name
+    test-setup-env:
+        # OS or platform
+        runs-on: ubuntu-20.04
+        # Steps
+        steps:
+            - name: Pull git repository
+              uses: actions/checkout@v3
+            - name: Install Python 3.10
+              uses: actions/setup-python@v4
+              with: 
+                python-version: '3.10'
+            - name: Upgrade pip
+              run: python -m pip install --upgrade pip 
+            - name: Install Python dependencies
+              run: pip install -r ./Code_With_Prince/requirements.txt
+            - name: 
+              run: python3 ./Code_With_Prince/Scripts/hello.py
+    run-tests:
+        runs-on: ubuntu-20.04
+        needs: [test-setup-env]
+        steps:
+            - name: Pull code from repo
+              uses: actions/checkout@v3
+            - name: run pytest
+              run: pytest -v
